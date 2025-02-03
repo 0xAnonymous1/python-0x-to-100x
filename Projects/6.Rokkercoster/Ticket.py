@@ -18,7 +18,8 @@ if hight>=120:
   else:
     print("you are not allowed to ride 😒 ")
   
-  wants_photo=input("do you want photo? y or N")
+  wants_photo=input("do you want photo? y or N :")
   if wants_photo == "y":
-    else:
+    print(f"your bill is:{bill+3}$")
+else:
     print("Sorry you can't ride")
